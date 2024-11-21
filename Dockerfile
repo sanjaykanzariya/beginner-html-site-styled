@@ -1,4 +1,4 @@
-# Use an official Nginx image from DockerHub
+# Use an official Nginx image from DockerHub latest
 FROM nginx:alpine
 
 # Copy the content of your website (current directory) into the Nginx HTML directory
