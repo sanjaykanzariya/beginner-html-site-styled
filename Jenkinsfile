@@ -14,7 +14,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    sh 'sudo docker build -t $DOCKER_IMAGE .'
+                    sh 'echo 898fd2d1a6624bfa8b88f69ad39b968e | sudo -S docker build -t $DOCKER_IMAGE .'
                 }
             }
         }
